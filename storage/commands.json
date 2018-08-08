@@ -1,0 +1,212 @@
+{
+          "Help":{
+                  "name":"Help",
+                  "group":"user",
+                  "desc":"*display a list of commands.*",
+                  "usage":"help [group OR command]"
+          },
+          "np":{
+                  "name":"np",
+                  "group":"user",
+                  "desc":"*return the title of the atualy song *",
+                  "usage":"np"
+          },
+          "Createinvite":{
+                  "name":"Createinvite",
+                  "group":"user",
+                  "desc":"*return an invite link in the channel.*",
+                  "usage":"createinvite"
+          },
+          "Flipcoin":{
+                  "name":"Flipcoin",
+                  "group":"user",
+                  "desc":"*flip a coin and return th result in the channel.*",
+                  "usage":"flipcoin"
+          },
+		"Ping":{
+			"name":"Ping",
+			"group":"user",
+			"desc":"*send pong!.*",
+			"usage":"ping"
+		},
+          "role":{
+                  "name":"Role",
+                  "group":"user",
+                  "desc":"*display the role list in the current channel.*",
+                  "usage":"role"
+          },
+          "roll":{
+                  "name":"Role",
+                  "group":"user",
+                  "desc":"*roll a dice and display the result in the channel.*",
+                  "usage":"roll"
+          },
+          "Timer":{
+                  "name":"Timer",
+                  "group":"user",
+                  "desc":"*create a timer.*",
+                  "usage":"timer <number><s or m or h>"
+          },
+          "Userinfo":{
+                  "name":"Userinfo",
+                  "group":"user",
+                  "desc":"*return info about you or the mention.*",
+                  "usage":"userinfo [mention a user]"
+          },
+          "Vote":{
+                  "name":"Vote",
+                  "group":"user",
+                  "desc":"*create a vote with timer.*",
+                  "usage":"vote <title> [number of second]"
+          },
+          "Hb":{
+                  "name":"Hb",
+                  "group":"user",
+                  "desc":"*generate a hastebin.*",
+                  "usage":"hb <text>"
+          },
+          "Code":{
+                  "name":"Code",
+                  "group":"user",
+                  "desc":"*generate a code block.*",
+                  "usage":"code <language like JS CSS ...> ,<ur code>"
+          },
+          "hentai":{
+                  "name":"Hentai",
+                  "group":"user",
+                  "desc":"*send a hentai gif or png.*",
+                  "usage":"hentai"
+          },
+          "porn":{
+                  "name":"Porn",
+                  "group":"user",
+                  "desc":"*send porn picture.*",
+                  "usage":"porn"
+          },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          "play":{
+                  "name":"Play",
+                  "group":"Dj",
+                  "desc":"*play song.*",
+                  "usage":"play <name or url>"
+          },
+          "stop":{
+                  "name":"stop",
+                  "group":"Dj",
+                  "desc":"*stop playing.*",
+                  "usage":"stop"
+          },
+          "skip":{
+                  "name":"skip",
+                  "group":"Dj",
+                  "desc":"*skip the song.*",
+                  "usage":"stop"
+          },
+          "pause":{
+                  "name":"pause",
+                  "group":"Dj",
+                  "desc":"*pause the song.*",
+                  "usage":"pause"
+          },
+          "resume":{
+                  "name":"resume",
+                  "group":"Dj",
+                  "desc":"*resume the song.*",
+                  "usage":"resume"
+          },
+          "queue":{
+                  "name":"queue",
+                  "group":"Dj",
+                  "desc":"*display the queue song.*",
+                  "usage":"queue"
+          },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          "Purge":{
+                  "name":"Purge",
+                  "group":"admin",
+                  "desc":"*clear the chat.*",
+                  "usage":"purge <number between 1 and 100>"
+          },
+          "Mute":{
+                  "name":"Mute",
+                  "group":"admin",
+                  "desc":"*mutea user in the text chat.*",
+                  "usage":"mute <mention a user> <time s/m/h>"
+          },
+		"Kick":{
+			   "name":"Kick",
+			   "group":"admin",
+			   "desc":"*kick the mentioned user.*",
+			   "usage":"kick <mention a user>"
+		},
+		"Ban":{
+			   "name":"Ban",
+			   "group":"admin",
+			   "desc":"*ban the mentioned user.*",
+			   "usage":"ban <mention a user>"
+		},
+		"Hook":{
+			   "name":"Hook",
+			   "group":"admin",
+			   "desc":"*display a webhook (announce).*",
+			   "usage":"hookr <title>,<message>,[hexcolor],[avatarURL]"
+		},
+		"Reply":{
+			   "name":"Reply",
+			   "group":"admin",
+			   "desc":"*reply to user in 'aide' channel.*",
+			   "usage":"reply <user id> <message>"
+		},
+		"Reload":{
+			   "name":"Reload",
+			   "group":"admin",
+			   "desc":"*reload a command.*",
+			   "usage":"reload <command without prefix>"
+		}
+
+}
